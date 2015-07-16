@@ -1,0 +1,23 @@
+{
+  "name": "sgb-screen-form-complaint",
+  "version": "0.0.0",
+  "main": "dist/sgb-screen-form-complaint.js",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Luis Miglietti <luis.miglietti@synergy-gb.com>"
+  ],
+  "license": "Propietary",
+  "homepage": "https://github.com/SYNERGY-GB/sgb-screen-form-complaint.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "megazord-framework": "git@github.com:SYNERGY-GB/megazord-framework.git#master"
+  }
+}

@@ -1,0 +1,24 @@
+<ion-view view-title="{{ title | translate}}" class>
+	<ion content>
+	  	<div class="item item-input item-select">
+    		<div class="input-label">
+      			Test
+    		</div>
+			<select ng-model="request" ng-change="showSelectValue(mySelect)">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			</select>
+			<select ng-model="subject" ng-change="showSelectValue(mySelect)">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			</select>
+			<textarea name="comment" ng-model="comment">
+			</textarea>
+		</div>
+		<button class="button button-primary" ng-click="sendComplaint()">
+			Send
+		</button>
+	</ion content>
+</ion-view>
