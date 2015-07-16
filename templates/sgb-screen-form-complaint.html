@@ -4,17 +4,17 @@
     		<div class="input-label">
       			Test
     		</div>
-			<select ng-model="request" ng-change="showSelectValue(mySelect)">
+			<select ng-model="request">
 			    <option>1</option>
 			    <option>2</option>
 			    <option>3</option>
 			</select>
-			<select ng-model="subject" ng-change="showSelectValue(mySelect)">
+			<select ng-model="subject">
 			    <option>1</option>
 			    <option>2</option>
 			    <option>3</option>
 			</select>
-			<textarea name="comment" ng-model="comment">
+			<textarea name="comment" ng-model="comment" >
 			</textarea>
 		</div>
 		<button class="button button-primary" ng-click="sendComplaint()">
