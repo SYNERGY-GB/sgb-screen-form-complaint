@@ -8,5 +8,7 @@ angular.module('sgb-screen-form-complaint', ['megazord'])
               function(_screen, _screenParams, $stateParams, $scope){
    			  _screen.initialize($scope, _screenParams);
 
-  }]); 
+  }])	; 
+
+},{}]},{},[1]);
 
