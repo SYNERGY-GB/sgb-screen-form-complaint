@@ -2,7 +2,6 @@
   <ion-content class="padding">
     <form name ="complaint" class="panel panel-default">
       <div class="list">
-          {{content.recipient}}
         <div class="list list-inset">
            <div class="item item-input item-select">
               <div class="input-label"> {{'type' | translate}} </div>
@@ -27,8 +26,7 @@
             </div>
           </div>
         </div>  
-      <button class="button button-block button-positive" ng-disabled="!content.comment" ng-click="send()"> {{'send' | translate}} </button>
+      <button class="button button-block button-positive" ng-disabled="!content.comment" ng-click="send()">  {{'send' | translate}} </button>
     </form>
-
   </ion-content>
 </ion-view>
