@@ -1,1 +1,4 @@
-{}
+{ "comment": "Comentarios",
+  "type" : "Tipo",
+  "receiver" : "Dirigido a",
+  "send": "Enviar"}

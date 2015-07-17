@@ -1,24 +1,31 @@
-<!-- <ion-view view-title="{{ title | translate}}" class>
-	<ion content>
-	  	<div class="item item-input item-select">
-    		<div class="input-label">
-      			Test
-    		</div>
-			<select ng-model="request">
-			    <option>1</option>
-			    <option>2</option>
-			    <option>3</option>
-			</select>
-			<select ng-model="subject">
-			    <option>1</option>
-			    <option>2</option>
-			    <option>3</option>
-			</select>
-			<textarea name="comment" ng-model="comment" >
-			</textarea>
-		</div>
-		<button class="button button-primary" ng-click="sendComplaint()">
-			Send
-		</button>
-	</ion content>
-</ion-view> -->
+<ion-view view-title="{{ title | translate }}">
+  <ion-content class="padding">
+    <form>
+      <div class="list">
+        <div class="list list-inset">
+           <div class="item item-input item-select">
+              <div class="input-label"> {{type | translate}} </div>
+              <select>
+                  <option ng-repeat="request in items.requests">{{request}}</option>
+              </select>
+          </div>
+        </div>
+        <div class="list list-inset">
+           <div class="item item-input item-select">
+              <div class="input-label"> {{receiver | translate }} </div>
+              <select>
+                  <option ng-repeat="recipient in items.recipients">{{recipient}}</option>
+              </select>
+          </div>
+        </div>
+      </div>
+        <div class="list list-inset">
+          <label class="item item-input">
+              <textarea placeholder="{{ 'comment' | translate }}"></textarea>
+          </label>
+        </div>
+      </div>
+      <button class="button button-positive" type="submit"> {{send | translate}} </button>
+    </form>
+  </ion-content>
+</ion-view>
