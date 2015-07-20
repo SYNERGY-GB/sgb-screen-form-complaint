@@ -1,7 +1,7 @@
-{ "details": "Detalles",
-  "service" : "Servicio",
-  "type" : "Tipo",
-  "send": "Enviar",
-  "cuentas": "Cuentas",
-  "tarjetas": "Tarjetas de Crédito",
-  "creditos": "Crédito Hipotecario"}
+{ "input_text" : "Detalles",
+  "field_1"    : "Servicio",
+  "field_2"    : "Tipo",
+  "send"	   : "Enviar",
+  "cuentas"    : "Cuentas",
+  "tarjetas"   : "Tarjetas de Crédito",
+  "creditos"   : "Crédito Hipotecario"}
