@@ -1,4 +1,7 @@
 { "comment": "Comentarios",
   "type" : "Tipo",
   "receiver" : "Dirigido a",
-  "send": "Enviar"}
+  "send": "Enviar",
+  "cuentas": "Cuentas",
+  "tarjetas": "Tarjetas de Crédito",
+  "creditos": "Crédito Hipotecario"}

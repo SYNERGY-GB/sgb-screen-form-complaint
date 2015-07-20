@@ -1,4 +1,7 @@
 { "comment": "Comments",
   "type" : "Type",
   "receiver" : "Addressed To",
-  "send": "Send"}
+  "send": "Send",
+  "cuentas": "Accounts",
+  "tarjetas": "Credit Cards",
+  "creditos": "Mortgage Loans"}

@@ -6,7 +6,7 @@
            <div class="item item-input item-select">
               <div class="input-label"> {{'type' | translate}} </div>
               <select ng-model="content.type">
-                  <option ng-selected="requests[0]" ng-repeat="request in requests">{{request}}</option>
+                  <option ng-selected="requests[0]" ng-repeat="request in requests | orderBy">{{request}}</option>
               </select>
           </div>
         </div>
@@ -14,7 +14,7 @@
            <div class="item item-input item-select">
               <div class="input-label"> {{'receiver' | translate }} </div>
               <select ng-model="content.recipient">
-                  <option ng-selected="recipients[0]" ng-repeat="recipient in recipients">{{recipient}}</option>
+                  <option ng-selected="recipients[0]" ng-repeat="recipient in recipients | orderBy">{{recipient}}</option>
               </select>
           </div>
         </div>
