@@ -7,13 +7,13 @@ angular.module('sgb-screen-form-complaint', ['megazord'])
               function(_screen, _screenParams, $stateParams, $scope){
 
  _screen.initialize($scope, _screenParams);
- $scope.requests = _screenParams.requests?_screenParams.requests:['NA'];
- $scope.recipients = _screenParams.recipients?_screenParams.recipients:['NA'];
+ $scope.services = _screenParams.services?_screenParams.services:['NA'];
+ $scope.types = _screenParams.types?_screenParams.types:['NA'];
  
  $scope.content = {
-  	type: $scope.requests[0],
-  	recipient: $scope.recipients[0],
-  	comment: ''
+  	service: $scope.service[0],
+  	type: $scope.type[0],
+  	details: ''
  };
 
  /* $scope.send = function() {

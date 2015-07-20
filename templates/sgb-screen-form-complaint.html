@@ -2,19 +2,19 @@
   <ion-content class="padding">
     <form name ="complaint" class="panel panel-default">
       <div class="list">
-        <div class="list list-inset">
+        <div class="list list-inset" ng-if="services">
            <div class="item item-input item-select">
-              <div class="input-label"> {{'type' | translate}} </div>
-              <select ng-model="content.type">
-                  <option ng-selected="requests[0]" ng-repeat="request in requests | orderBy">{{request}}</option>
+              <div class="input-label"> {{'service' | translate}} </div>
+              <select ng-model="content.service">
+                  <option ng-selected="services[0]" ng-repeat="service in services | orderBy"> {{service | translate}}</option>
               </select>
           </div>
         </div>
-        <div class="list list-inset">
-           <div class="item item-input item-select">
-              <div class="input-label"> {{'receiver' | translate }} </div>
-              <select ng-model="content.recipient">
-                  <option ng-selected="recipients[0]" ng-repeat="recipient in recipients | orderBy">{{recipient}}</option>
+        <div class="list list-inset" ng-if="types">
+           <div class="item item-input item-select" ng-if="types">
+              <div class="input-label"> {{'type' | translate }} </div>
+              <select ng-model="content.type">
+                  <option ng-selected="types[0]" ng-repeat="type in types | orderBy">{{type | translate}}</option>
               </select>
           </div>
         </div>
@@ -22,11 +22,11 @@
         <div class="list list-inset">
           <div class="panel-body">
             <div class="item item-input">
-              <textarea ng-model="content.comment"placeholder="{{ 'comment' | translate }}" ></textarea>
+              <textarea ng-model="content.details"placeholder="{{ 'details' | translate }}" ></textarea>
             </div>
           </div>
         </div>  
-      <button class="button button-block button-positive" ng-disabled="!content.comment" ng-click="send()">  {{'send' | translate}} </button>
+      <button class="button button-block button-positive" ng-disabled="!content.details" ng-click="send()">  {{'send' | translate}} </button>
     </form>
   </ion-content>
 </ion-view>
