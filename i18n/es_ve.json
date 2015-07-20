@@ -2,6 +2,5 @@
   "field_1"    : "Servicio",
   "field_2"    : "Tipo",
   "send"	   : "Enviar",
-  "cuentas"    : "Cuentas",
-  "tarjetas"   : "Tarjetas de Crédito",
-  "creditos"   : "Crédito Hipotecario"}
+  "default_1"  : "Solicitud",
+  "default_2"  : "Reclamo"}

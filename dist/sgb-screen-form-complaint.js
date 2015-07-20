@@ -8,9 +8,9 @@ angular.module('sgb-screen-form-complaint', ['megazord'])
               function(_screen, _screenParams, $stateParams, $scope){
 
 	    _screen.initialize($scope, _screenParams);
-	    $scope.form_msg   = _screenParams.form_msg?_screenParams.form_msg:[]; 
-	    $scope.combobox_1 = _screenParams.combobox_1?_screenParams.combobox_1:['NA'];
-	    $scope.combobox_2 = _screenParams.combobox_2?_screenParams.combobox_2:['NA'];
+	    $scope.form_msg   = _screenParams.form_msg?_screenParams.form_msg:false; 
+	    $scope.combobox_1 = _screenParams.combobox_1?_screenParams.combobox_1:false;
+	    $scope.combobox_2 = _screenParams.combobox_2?_screenParams.combobox_2:['default_1','default_2'];
 
 		$scope.content = {
 		 	selection_1: $scope.combobox_1[0],
