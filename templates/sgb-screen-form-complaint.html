@@ -7,7 +7,7 @@
       <div class="list">
         <div class="list list-inset" ng-if="combobox_1">
            <div class="item item-input item-select">
-              <div class="input-label"> {{field_1}} </div>
+              <div class="input-label"> {{'field_1' | translate }} </div>
               <select ng-model="content.selection_1">
                   <option ng-selected="content.selection_1" ng-repeat="item_1 in combobox_1 | orderBy"> {{item_1 | translate}}</option>
               </select>
@@ -17,7 +17,7 @@
            <div class="item item-input item-select">
               <div class="input-label"> {{'field_2' | translate }} </div>
               <select ng-model="content.selection_2">
-                  <option ng-selected="content.selection_2" ng-repeat="item_2 in combobox_2 | orderBy">{{item_2 | translate}}</option>
+                  <option ng-selected="content.selection_2" ng-repeat="item_2 in combobox_2 | orderBy"> {{item_2 | translate}}</option>
               </select>
           </div>
         </div>
