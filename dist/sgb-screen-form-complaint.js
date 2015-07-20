@@ -12,11 +12,10 @@ angular.module('sgb-screen-form-complaint', ['megazord'])
  $scope.types = _screenParams.types?_screenParams.types:['NA'];
  
  $scope.content = {
-  	service: $scope.service[0],
-  	type: $scope.type[0],
+  	service: $scope.services[0],
+  	type: $scope.types[0],
   	details: ''
  };
-
  /* $scope.send = function() {
   	$scope.content.type =
   }*/
