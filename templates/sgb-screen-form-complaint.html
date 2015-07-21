@@ -1,11 +1,11 @@
 <ion-view view-title="{{ title | translate }}">
   <ion-content class="padding">
     <form name ="complaint" class="panel panel-default">
-      <div class="item item-divider item-calm item-text-wrap" ng-if="form_msg">
+      <div class="item item-divider item-calm item-text-wrap" ng-show="form_msg">
         <h2 class="signupTitle">{{ form_msg }}</h2>
       </div>
       <div class="list">
-        <div class="list list-inset" ng-if="combobox_1">
+        <div class="list list-inset" ng-show="combobox_1">
            <div class="item item-input item-select">
               <div class="input-label"> {{'field_1' | translate }} </div>
               <select ng-model="content.selection_1">
