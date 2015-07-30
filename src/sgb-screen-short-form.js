@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('sgb-screen-form-complaint', ['megazord'])
+angular.module('sgb-screen-short-form', ['megazord'])
 
 
-	.controller('sgb-screen-form-complaint-controller',
+	.controller('sgb-screen-short-form-controller',
               ['_screen', '_screenParams','$stateParams', '$scope',
               function(_screen, _screenParams, $stateParams, $scope){
 
