@@ -1,7 +1,7 @@
 {
-  "name": "sgb-screen-form-complaint",
+  "name": "sgb-screen-short-form",
   "version": "0.0.0",
-  "main": "dist/sgb-screen-form-complaint.js",
+  "main": "dist/sgb-screen-short-form.js",
   "moduleType": [
     "globals"
   ],
@@ -9,7 +9,7 @@
     "Luis Miglietti <luis.miglietti@synergy-gb.com>"
   ],
   "license": "Propietary",
-  "homepage": "https://github.com/SYNERGY-GB/sgb-screen-form-complaint.git",
+  "homepage": "https://github.com/SYNERGY-GB/sgb-screen-short-form.git",
   "ignore": [
     "**/.*",
     "node_modules",

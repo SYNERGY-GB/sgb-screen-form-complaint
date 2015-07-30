@@ -1,7 +1,0 @@
-{ "comment": "Comments",
-  "type" : "Service",
-  "receiver" : "Type",
-  "send": "Send",
-  "cuentas": "Accounts",
-  "tarjetas": "Credit Cards",
-  "creditos": "Mortgage Loans"}

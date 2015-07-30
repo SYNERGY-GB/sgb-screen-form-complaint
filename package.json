@@ -1,5 +1,5 @@
 {
-  "name": "sgb-screen-form-complaint",
+  "name": "sgb-screen-short-form",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SYNERGY-GB/sgb-scren-form-complaint.git"
+    "url": "https://github.com/SYNERGY-GB/sgb-screen-short-form.git"
   },
   "author": "Luis Miglietti <luis.miglietti@synergy-gb.com>",
   "license": "Propietary",
   "bugs": {
-    "url": "https://github.com/SYNERGY-GB/sgb-scren-form-complaint/issues"
+    "url": "https://github.com/SYNERGY-GB/sgb-screen-short-form/issues"
   },
-  "homepage": "https://github.com/SYNERGY-GB/sgb-scren-form-complaint",
+  "homepage": "https://github.com/SYNERGY-GB/sgb-screen-short-form",
   "devDependencies": {
     "browserify": "^9.0.3",
     "gulp": "^3.9.0",
