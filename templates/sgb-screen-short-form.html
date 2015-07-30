@@ -1,0 +1,31 @@
+<ion-view view-title="{{ title | translate }}">
+  <ion-content class="padding">
+    <form name ="complaint" class="panel panel-default">
+      <div class="item item-divider item-calm item-text-wrap" ng-show="form.form_msg">
+        <h2 class="signupTitle">{{ form.form_msg }}</h2>
+      </div>
+      <div class="list">
+        <div class="list list-inset" ng-show="form.combobox_1.length">
+           <div class="item item-input item-select">
+              <div class="input-label"> {{'field_1' | translate }} </div>
+              <select ng-model='content.selection_1' ng-selected="content.selection_1" ng-options="item for item in form.combobox_1"></select>
+          </div>
+        </div>
+        <div class="list list-inset">
+           <div class="item item-input item-select">
+              <div class="input-label"> {{'field_2' | translate }} </div>
+              <select ng-model="content.selection_2" ng-selected="content.selection_2" ng-options="item  as (item | translate) for item in form.combobox_2"></select>
+          </div>
+        </div>
+      </div>
+        <div class="list list-inset">
+          <div class="panel-body">
+            <div class="item item-input">
+              <textarea ng-model="content.input_text "placeholder="{{ 'input_text' | translate }}" ></textarea>
+            </div>
+          </div>
+        </div>  
+      <button class="button button-block button-positive" ng-disabled="!content.input_text" ng-click="send()">  {{'send' | translate}} </button>
+    </form>
+  </ion-content>
+</ion-view>
