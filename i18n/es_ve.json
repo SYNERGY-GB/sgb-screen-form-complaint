@@ -2,5 +2,6 @@
   "field_1"    : "Servicio",
   "field_2"    : "Tipo",
   "send"	   : "Enviar",
+  "popup_msg"  : "El formulario ha sido enviado exitosamente",
   "default_1"  : "Solicitud",
   "default_2"  : "Reclamo"}
