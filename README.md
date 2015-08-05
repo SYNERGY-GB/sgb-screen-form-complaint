@@ -7,14 +7,14 @@ Esta pantalla es un formulario que sirve para emitir servicios, como por ejemplo
 
 Datos obligatorios
 
-item combobox_2: Una lista de todos los tipos de servicios.  Esta lista corresponde a los tipos de servicios disponibles.  
+- item combobox_2: Una lista de todos los tipos de servicios.  Esta lista corresponde a los tipos de servicios disponibles.  
 Si no se reciben datos se utilizaŕa una plantilla por defecto con un solo combobox.
 
 
 Datos opcionales
 
-form_msg: Mensaje (header) en el formulario
-combobox_1: Una lista de todos los servicios. Esta lista corresponde a los servicios disponibles
+- form_msg: Mensaje (header) en el formulario
+- combobox_1: Una lista de todos los servicios. Esta lista corresponde a los servicios disponibles
 
 Ejemplo JSON
 
