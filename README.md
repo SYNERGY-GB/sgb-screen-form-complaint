@@ -18,11 +18,8 @@ combobox_1: Una lista de todos los servicios. Esta lista corresponde a los servi
 
 Ejemplo JSON
 
-{ <br />
-    "combobox_1": ["<item_1.1>", "<item.1.2>], <br />
-    "combobox_2": ["<item_2.1>", "<item.2.2>], <br />
-    "form_msg"  : "<mensaje>" <br />
-} <br />
+
+![Alt Text](https://s3.amazonaws.com/megazord-framework/json+screenshots/json-short-form.png)
 
 
 Diseño
