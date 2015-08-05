@@ -27,7 +27,4 @@ Ejemplo JSON
 
 Diseño
 
-.. image:: https://s3.amazonaws.com/megazord-framework/balsamiq+mockups/sgb-screen-short-form.png
-   :height: 100px
-   :width: 200 px
-   :scale: 50 %
+![Alt Text](https://s3.amazonaws.com/megazord-framework/balsamiq+mockups/sgb-screen-short-form.png)
