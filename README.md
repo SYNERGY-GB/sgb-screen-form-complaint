@@ -19,7 +19,15 @@ Si no se reciben datos se utilizaŕa una plantilla por defecto con un solo combo
 <h3>Ejemplo JSON</h3>
 
 
-![Alt Text](https://s3.amazonaws.com/megazord-framework/json+screenshots/json-short-form.png)
+    {
+
+    "combobox_1": ["<item_1.1>", "<item.1.2>],
+
+    "combobox_2": ["<item_2.1>", "<item.2.2>],
+
+    "form_msg"  : "<mensaje>" 
+    
+    } 
 
 
 <h3>Diseño</h3>
