@@ -7,7 +7,7 @@ Esta pantalla es un formulario que sirve para emitir servicios, como por ejemplo
 
 <h3>Datos obligatorios</h3>
 
-- **item combobox_2**: Una lista de todos los tipos de servicios.  Esta lista corresponde a los tipos de servicios disponibles.  
+- **combobox_2**: Una lista de todos los tipos de servicios.  Esta lista corresponde a los tipos de servicios disponibles.  
 Si no se reciben datos se utilizaŕa una plantilla por defecto con un solo combobox.
 
 
