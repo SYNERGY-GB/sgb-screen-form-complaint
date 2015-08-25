@@ -1,36 +1,32 @@
 <ion-view view-title="{{ title | translate }}">
   <ion-content class="padding">
-    <form name ="complaint" class="panel panel-default">
-      <div class="item item-divider item-calm item-text-wrap" ng-show="form.form_msg">
-        <h2 class="signupTitle">{{ form.form_msg }}</h2>
-      </div>
-      <br/>
-      <div class="item item-input item-select">
-        <div class="input-label"> {{'field_1' | translate }} </div>
-        <select ng-model='content.selection_1' ng-selected="content.selection_1" 
-              ng-options="item for item in form.combobox_1">
-        </select>
-      </div>
+    <div class="item item-divider item-calm item-text-wrap" ng-show="form.form_msg">
+      <h2 class="signupTitle">{{ form.form_msg }}</h2>
+    </div>
+    <br/>
 
-      <div class="item item-input item-select">
-        <div class="input-label"> {{'field_2' | translate }} </div>
-        <select ng-model="content.selection_2" ng-selected="content.selection_2" 
-                ng-options="item  as (item | translate) for item in form.combobox_2">
-        </select>
-      </div>
-      <br/>
+    <div class="item item-input item-select">
+      <div class="input-label"> {{'field_1' | translate }} </div>
+      <select ng-model='content.selection_1' ng-selected="content.selection_1" 
+            ng-options="item for item in form.combobox_1" >
+      </select>
+    </div>
 
-      <div class="panel-body">
-        <div class="item item-input">
-          <textarea ng-model="content.input_text "placeholder="{{ 'input_text' | translate }}" ></textarea>
-        </div>
-      </div>
+    <div class="item item-input item-select">
+      <div class="input-label"> {{'field_2' | translate }} </div>
+      <select ng-model="content.selection_2" ng-selected="content.selection_2" 
+              ng-options="item  as (item | translate) for item in form.combobox_2">
+      </select>
+    </div>
+    <br/>
 
-      <br/>
-      <button class="button button-block button-positive" ng-disabled="!content.input_text" ng-click="send()">
-          {{'send' | translate}} 
-      </button>
-      
-    </form>
+    <div class="item item-input">
+        <textarea ng-model="content.input_text "placeholder="{{ 'input_text' | translate }}" ></textarea>
+    </div>
+
+    <br/>
+    <button class="button button-block button-positive" ng-disabled="!content.input_text" ng-click="send()">
+        {{'send' | translate}} 
+    </button>
   </ion-content>
 </ion-view>

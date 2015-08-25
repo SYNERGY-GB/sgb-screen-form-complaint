@@ -9,12 +9,12 @@ angular.module('sgb-screen-short-form', ['megazord'])
         
 	    _screen.initialize($scope, _screenParams);
 	    $scope.form = $stateParams.data;
-	    $scope.form.combobox_2 = $scope.form.combobox_2?$scope.form.combobox_2:['default_1','default_2'];
+	    //$scope.form.combobox_2 = $scope.form.combobox_2?$scope.form.combobox_2:['default_1','default_2'];
 
 		$scope.resetContent = function() {
 			$scope.content = {
 			    selection_1: $scope.form.combobox_1? $scope.form.combobox_1[0]: undefined,
-			  	selection_2: $scope.form.combobox_2[0],
+			  	selection_2: $scope.form.combobox_2? $scope.form.combobox_2[0]: undefined,
 			 	input_text: ''
 			}
 		};
