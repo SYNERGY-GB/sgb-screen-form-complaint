@@ -3,12 +3,12 @@
 
 angular.module('sgb-screen-short-form', ['megazord'])
 	.controller('sgb-screen-short-form-controller',
-              ['_screen', '_screenParams','$stateParams', '$scope','$ionicPopup','$translate',
-              function(_screen, _screenParams, $stateParams, $scope, $ionicPopup, $translate){
+              ['_screen', '_screenParams','_data', '$scope','$ionicPopup','$translate',
+              function(_screen, _screenParams, _data, $scope, $ionicPopup, $translate){
 
         
 	    _screen.initialize($scope, _screenParams);
-	    $scope.form = $stateParams.data;
+	    $scope.form = _data;
 	    //$scope.form.combobox_2 = $scope.form.combobox_2?$scope.form.combobox_2:['default_1','default_2'];
 
 		$scope.resetContent = function() {
